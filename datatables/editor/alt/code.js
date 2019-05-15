@@ -397,7 +397,7 @@
                     rowDataArray[$(this).attr('id')] = $(this).val();
                 });
 
-console.log(rowDataArray); //DEBUG
+//console.log(rowDataArray); //DEBUG
 
                 that.onEditRow(that,
                     rowDataArray,
